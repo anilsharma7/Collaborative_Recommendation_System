@@ -26,9 +26,9 @@ When a customer first taps on the "ORDER" page, company may recommend top 10 ite
 # **Problem Statement**
 In this data challenge, we are building collaborative filtering models for recommending product items. The steps below aim to recommend users their top 10 items to place into their basket. The final output will be a csv file in the output folder, and a function that searches for a recommendation list based on a speficied user:
 
-  **Input**: user - customer ID
+   **Input**: user - customer ID
 
-  **Output**: ranked list of items (product IDs), that the user is most likely to want to put in empty "basket"
+   **Output**: ranked list of items (product IDs), that the user is most likely to want to put in empty "basket"
 
 
 
@@ -122,7 +122,11 @@ Then we compare all the models we have built based on precision-recall character
 
 # **Summary**
 
-In this exercise, we were able to traverse a step-by-step process for making recommendations to customers. We used Collaborative Filtering approaches with cosine and pearson measure and compare the models with our baseline popularity model. We also prepared three sets of data that include regular buying count, buying dummy, as well as normalized purchase frequency as our target variable. Using RMSE, precision and recall, we evaluated our models and observed the impact of personalization. Finally, we selected the Cosine approach in dummy purchase data.
+* In this exercise, we were able to traverse a step-by-step process for making recommendations to customers. 
+* We used Collaborative Filtering approaches with cosine and pearson measure and compare the models with our baseline popularity model.
+* We also prepared three sets of data that include regular buying count, buying dummy, as well as normalized purchase frequency as our target variable.
+* Using RMSE, precision and recall, we evaluated our models and observed the impact of personalization. 
+* Finally, we selected the Cosine approach in dummy purchase data.
 
 
 
